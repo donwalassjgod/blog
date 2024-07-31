@@ -35,6 +35,11 @@ h1{
     color: white;
     font-size: 25px;
     font-family: popins2;
+    text-shadow: 
+        5px 5px 0 black,  /* Sombra abajo a la derecha */
+        -1px -1px 0 black, /* Sombra arriba a la izquierda */
+        -1px 1px 0 black,  /* Sombra abajo a la izquierda */
+        1px -1px 0 black;;
 }
 
 .biografia {
